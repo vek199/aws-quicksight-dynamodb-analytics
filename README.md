@@ -1,7 +1,7 @@
 # AWS QuickSight + DynamoDB Analytics
 
 ## 📌 Project Overview
-This project demonstrates how to visualize NoSQL data stored in AWS DynamoDB using Amazon QuickSight, AWS Athena, and a Lambda Connector.
+This project demonstrates how to visualize NoSQL data stored in AWS DynamoDB using Amazon QuickSight, AWS Athena, and a Lambda Connector. (AWS Free-Tier)
 
 ## 🛠️ Tech Stack
 - **AWS DynamoDB**: NoSQL database to store task data.
@@ -20,7 +20,8 @@ This project demonstrates how to visualize NoSQL data stored in AWS DynamoDB usi
 ✅ Secure resource access with IAM roles & policies.  
 
 ## 🔥 Architecture Diagram
-(Insert an image or link to your architecture diagram)
+
+![High-Level Architecture](screenshots/High-Level-Architecture.png)
 
 ## 📝 Step-by-Step Guide
 1. **Create a DynamoDB Table**
