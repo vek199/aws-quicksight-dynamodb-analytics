@@ -25,27 +25,35 @@ This project demonstrates how to visualize NoSQL data stored in AWS DynamoDB usi
 
 ## 📝 Step-by-Step Guide
 1. **Create a DynamoDB Table**
-   - Define Partition Key and Sort Key.
-   - Insert sample JSON records.
+   - Defined Partition Key and Sort Key.
+   - Inserted sample JSON records.
 
 2. **Connect Athena to DynamoDB**
-   - Use AWS Glue to define schema.
-   - Create an S3 bucket for Athena results.
-   - Configure Athena Lambda Connector.
+   - Used AWS Glue to define schema.
+   - Created an S3 bucket for Athena results. (spill location and results - 2 buckets)
+   - Configured Athena Lambda Connector.
 
 3. **Set Up QuickSight**
-   - Grant IAM permissions.
-   - Create a dataset pulling from Athena.
-   - Build interactive charts.
+   - Granted IAM permissions.
+   - Created a dataset pulling from Athena.
+   - Built interactive charts.
 
 4. **Final Visualization**
-   - Create a dashboard with different data visualizations.
-   - Refresh data dynamically.
+   - Created a dashboard with different data visualizations.
+   - Refreshes data dynamically.
 
-## 🎥 Demo (Optional)
-Include screenshots or a Loom/Youtube video link.
-
-## 🗑️ Cleanup
-Make sure to delete your AWS resources to avoid charges.
+## 🎥 Demo 
+Included diagrams and working screenshots in a folder.
 
 ## 📂 Project Structure
+
+
+## Next Step - Adding Frontend/UI
+
+[Frontend: React/Vue.js]  -->  [API Gateway]  -->  [Lambda Function]  -->  [DynamoDB]
+                                                           ↓
+                                                      [Athena]
+                                                           ↓
+                                                 [QuickSight Dashboard]
+
+
